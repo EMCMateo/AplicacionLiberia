@@ -40,12 +40,18 @@ header, main {
     border-radius: var(--borde-radio);
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     
+    
+}
+
+header {
+    text-align: center;
 }
 
 
 header h1 {
     color: var(--color-primario);
     margin-top: 0;
+    
 }
 
 nav ul {
@@ -121,6 +127,95 @@ th, td {
 th {
     background-color: var(--color-primario);
     color: #ffffff;
+}
+
+/* --- FORMULARIO ACCESIBLE --- */
+fieldset {
+    border: 1px solid #ced4da;
+    border-radius: var(--borde-radio);
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--color-primario);
+    padding: 0 0.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.radio-group div,
+.checkbox-group div {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-group input,
+.checkbox-group input {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.radio-group label,
+.checkbox-group label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.btn-submit {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: var(--color-secundario);
+}
+
+
+.galeria-simple {
+    display: flex;       
+    flex-wrap: wrap;     
+    gap: 1rem;           
+    margin-top: 1rem;
+}
+
+.galeria-simple figure {
+    margin: 0;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--color-tarjeta);
+    border-radius: var(--borde-radio);
+    border-color: var(--color-secundario);
 }
 
 

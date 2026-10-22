@@ -1,0 +1,77 @@
+
+:root {
+    --color-primario: #1b4332;      
+    --color-secundario: #2d6a4f;     
+    --color-fondo: #f4f6f8;          
+    --color-tarjeta: #ffffff;       
+    --color-texto: #212529;         
+    --color-texto-claro: #495057;   
+    --borde-radio: 8px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    line-height: 1.6;
+}
+
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #ffb703;
+    outline-offset: 2px;
+}
+
+/* css grid */
+body { 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+header, main {
+    background-color: var(--color-tarjeta);
+    padding: 1.5rem;
+    border-radius: var(--borde-radio);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: center;
+    
+}
+
+
+header h1 {
+    color: var(--color-primario);
+    margin-top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+
+    
+}
+
+nav a {
+    color: var(--color-primario);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #e9ecef;
+}
+
+

@@ -1,7 +1,7 @@
 # Respuesta a la Auditoría y Correcciones Adicionales
 
-**Estudiante:** Mateo Molina (N.º Lista 16)
-**Auditor:** N.º Lista 17
+**Estudiante:** Mateo Molina N.º Lista 16
+**Auditor:** Mateo Morejon N.º Lista 17
 
 ## Respuestas al informe recibido
 

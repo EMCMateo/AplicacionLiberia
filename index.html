@@ -139,12 +139,13 @@
 
                     <div class="form-group">
                         <label for="telefono">Teléfono celular:</label>
-                        <input type="tel" id="telefono" name="telefono" required placeholder="0991234567">
+                        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" title="Debe contener 10 dígitos numéricos" required placeholder="0991234567">
                     </div>
 
                     <div class="form-group">
                         <label for="fecha-nacimiento">Fecha de nacimiento:</label>
-                        <input type="date" id="fecha-nacimiento" name="fecha_nacimiento" required>
+                        <input type="date" id="fecha-nacimiento" name="fecha_nacimiento" min="1920-01-01" max="2014-12-31" required>
+                    </div>
                     </div>
                 </fieldset>
 

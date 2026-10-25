@@ -281,7 +281,7 @@ aside h2, aside h3 {
 }
 
 @media print {
-    nav, form {
+    nav, #registro {
         display: none !important; 
     }
     
